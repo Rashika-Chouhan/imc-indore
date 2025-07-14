@@ -13,3 +13,71 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+captures/
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+
+# Keystore files (security reasons – don't push signing keys!)
+*.jks
+*.keystore
+
+# Gradle wrapper cache
+.gradle/
+!gradle-wrapper.jar
+
+# Distribution folder
+/dist/
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# Kotlin specific
+*.kotlin_module
+
+# crashlytics / firebase
+fabric.properties
+crashlytics.properties
+app/google-services.json
+firebase-debug.log
+
+# Jetpack Compose preview caches
+**/build/compose-*
+
+# Node (if React Native or other JS is involved)
+node_modules/
+npm-debug.log
+
+# OS generated files
+*.swp
+*.swo
